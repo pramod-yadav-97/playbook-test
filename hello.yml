@@ -1,0 +1,12 @@
+- name: To test first ansible
+  hosts: all
+  tasks:
+  - name: Ping all hosts
+    ping:
+
+  - name: Giving execute permissions 
+    command: chmod +x hello.sh
+
+  - name: Execute hello.sh script
+    command: bash hello.sh
+
