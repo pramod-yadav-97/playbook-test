@@ -1,0 +1,6 @@
+- name: Software update
+  hosts: dbserver
+  tasks:
+  - name: Update everything
+    yum: name="*" state=latest 
+
