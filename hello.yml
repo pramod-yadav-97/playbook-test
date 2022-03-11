@@ -1,5 +1,5 @@
 - name: To test first ansible
-  hosts: all
+  hosts: webserver
   tasks:
   - name: Ping all hosts
     ping:
